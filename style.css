@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-image: url("https://minecraft-exchange-public.s3.amazonaws.com/static/img/devnics/header.234b48e15df1.jpeg");
+  background-color: #ff6b00;
   padding: 5%;
   text-align: center;
 }
