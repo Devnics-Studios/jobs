@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-image: url("https://minecraft-exchange-public.s3.amazonaws.com/static/img/devnics/header.234b48e15df1.jpeg");
+  padding: 5%;
+  text-align: center;
+}
+
+.jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  max-width: fit-content;
+}
+
+img {
+    width: 10%;
+}
+
+.job {
+  min-width: 300px;
+  max-width: fit-content;
+  min-height: fit-content;
+  border: 2px #ff6b00 solid;
+  padding: 20px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.job button {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.job button {
+  background-color: black;
+  color: #ff6b00;
+  border: 2px #ff6b00 solid;
+  padding: 10px;
+}
+
+@media(max-width: 600px) {
+    header {
+        padding: 15%;
+    }
+
+    img {
+      width: 30%;
+    }
+}
